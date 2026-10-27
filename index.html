@@ -194,11 +194,11 @@ footer .end{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;p
 .pano:active{cursor:grabbing}
 .pano .layer{position:absolute;inset:0;background-repeat:repeat-x;background-size:auto 150%}
 .pano::after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 55%,#0000003d)}
-.hot{position:absolute;left:0;top:0;z-index:2;will-change:transform}
-.hot i{display:block;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:#fff;border:6px solid #111;box-shadow:0 0 0 0 #fff;animation:hp 2s infinite}
+.pano .hot{position:absolute;left:0;top:0;z-index:2;will-change:transform}
+.pano .hot i{display:block;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:#fff;border:6px solid #111;box-shadow:0 0 0 0 #fff;animation:hp 2s infinite}
 @keyframes hp{70%{box-shadow:0 0 0 14px #fff0}0%{box-shadow:0 0 0 0 #ffffffb0}}
-.hot span{position:absolute;left:18px;top:-14px;white-space:nowrap;background:#111;color:#fff;padding:6px 12px;border-radius:99px;font:11px 'Space Mono';opacity:0;transform:translateX(-6px);transition:.25s;pointer-events:none}
-.hot:hover span{opacity:1;transform:none}
+.pano .hot span{position:absolute;left:18px;top:-14px;white-space:nowrap;background:#111;color:#fff;padding:6px 12px;border-radius:99px;font:11px 'Space Mono';opacity:0;transform:translateX(-6px);transition:.25s;pointer-events:none}
+.pano .hot:hover span{opacity:1;transform:none}
 .pano .badge{position:absolute;left:18px;top:18px;z-index:3;background:#111;color:var(--lime);padding:8px 14px;border-radius:99px;font-size:11px}
 .pano .hint{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);z-index:3;background:#fff;padding:9px 16px;border-radius:99px;font-size:11px;white-space:nowrap}
 @media(max-width:900px){.v360 .wrap{grid-template-columns:1fr}}
