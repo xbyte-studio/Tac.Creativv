@@ -3,18 +3,21 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="TAC Creative Hub is Idukki’s creative and tech hub for branding, graphic design, film, photography, digital marketing, AI, web design, and 360° virtual tours.">
+<meta name="description" content="TAC Creative Hub is Idukki’s creative and tech hub for video editing, film, photography, graphic design, digital marketing, AI videos, web design and 360° tours.">
 <link rel="canonical" href="https://taccreativv.vercel.app/">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
 <meta property="og:site_name" content="TAC Creative Hub">
 <meta property="og:title" content="TAC Creative Hub | Idukki’s Creative &amp; Tech Hub">
-<meta property="og:description" content="Idukki’s creative and tech hub for branding, design, film, photography, digital marketing, AI, and web experiences.">
+<meta property="og:description" content="TAC Creative Hub is Idukki’s creative and tech hub for video editing, film, photography, graphic design, digital marketing, AI videos, web design and 360° tours.">
 <meta property="og:url" content="https://taccreativv.vercel.app/">
 <meta property="og:image" content="https://taccreativv.vercel.app/TAC.png">
+<meta property="og:image:alt" content="TAC Creative Hub logo">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="TAC Creative Hub | Idukki’s Creative &amp; Tech Hub">
-<meta name="twitter:description" content="Idukki’s creative and tech hub for branding, design, film, photography, digital marketing, AI, and web experiences.">
+<meta name="twitter:description" content="TAC Creative Hub is Idukki’s creative and tech hub for video editing, film, photography, graphic design, digital marketing, AI videos, web design and 360° tours.">
 <meta name="twitter:image" content="https://taccreativv.vercel.app/TAC.png">
+<meta name="twitter:image:alt" content="TAC Creative Hub logo">
 <title>TAC Creative Hub | Idukki’s Creative &amp; Tech Hub</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;700&family=Space+Mono&family=Noto+Sans+Tamil:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500&display=swap" rel="stylesheet">
@@ -311,20 +314,51 @@ footer .btn{padding:11px 20px}.ulink{font-size:15px;padding-bottom:8px}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "TAC Creative Hub",
-  "description": "Idukki’s creative and tech hub for branding, graphic design, film, photography, digital marketing, AI, web design, and 360° virtual tours.",
-  "url": "https://taccreativv.vercel.app/",
-  "logo": "https://taccreativv.vercel.app/TAC.png",
-  "image": "https://taccreativv.vercel.app/TAC.png",
-  "telephone": "+91-90749-90176",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Idukki",
-    "addressRegion": "Kerala",
-    "addressCountry": "IN"
-  },
-  "sameAs": ["https://www.instagram.com/tac.creativ/"]
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://taccreativv.vercel.app/#website",
+      "url": "https://taccreativv.vercel.app/",
+      "name": "TAC Creative Hub",
+      "alternateName": "TAC",
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://taccreativv.vercel.app/#business",
+      "name": "TAC Creative Hub",
+      "alternateName": "TAC",
+      "description": "TAC Creative Hub is Idukki’s creative and tech hub for video editing, film, photography, graphic design, digital marketing, AI videos, web design and 360° tours.",
+      "url": "https://taccreativv.vercel.app/",
+      "logo": "https://taccreativv.vercel.app/TAC.png",
+      "image": "https://taccreativv.vercel.app/TAC.png",
+      "telephone": "+91-90749-90176",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Idukki",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Idukki" },
+        { "@type": "State", "name": "Kerala" }
+      ],
+      "sameAs": ["https://www.instagram.com/tac.creativ/"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Creative and tech services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Media and digital marketing" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Graphic design and branding" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Video filming and editing" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI videos and scripts" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Photography and videography" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drone shooting" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Web design and 360° interior websites" } }
+        ]
+      }
+    }
+  ]
 }
 </script>
 </head>
